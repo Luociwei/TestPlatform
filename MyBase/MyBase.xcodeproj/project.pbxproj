@@ -54,7 +54,9 @@
 		BAEC47F42436090E00DE8A2B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAEC47EB2436090D00DE8A2B /* ViewController.m */; };
 		BAEC47F52436090E00DE8A2B /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAEC47ED2436090D00DE8A2B /* ViewController.xib */; };
 		BAEC47F62436090E00DE8A2B /* ShowingLogVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BAEC47EF2436090D00DE8A2B /* ShowingLogVC.m */; };
-		BAEC47F82436090E00DE8A2B /* ShowingLogVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAEC47F22436090E00DE8A2B /* ShowingLogVC.xib */; };
+		BAF0CEB82594E3CE00289134 /* TextView.m in Sources */ = {isa = PBXBuildFile; fileRef = BAF0CEB72594E3CE00289134 /* TextView.m */; };
+		BAF0CEBA2594E44000289134 /* TextView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAF0CEB92594E44000289134 /* TextView.xib */; };
+		BAF0CEBC2594E85600289134 /* ShowingLogVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAF0CEBB2594E85600289134 /* ShowingLogVC.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -169,7 +171,10 @@
 		BAEC47ED2436090D00DE8A2B /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
 		BAEC47EE2436090D00DE8A2B /* ShowingLogVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowingLogVC.h; sourceTree = "<group>"; };
 		BAEC47EF2436090D00DE8A2B /* ShowingLogVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowingLogVC.m; sourceTree = "<group>"; };
-		BAEC47F22436090E00DE8A2B /* ShowingLogVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShowingLogVC.xib; sourceTree = "<group>"; };
+		BAF0CEB62594E3CE00289134 /* TextView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextView.h; sourceTree = "<group>"; };
+		BAF0CEB72594E3CE00289134 /* TextView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextView.m; sourceTree = "<group>"; };
+		BAF0CEB92594E44000289134 /* TextView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TextView.xib; sourceTree = "<group>"; };
+		BAF0CEBB2594E85600289134 /* ShowingLogVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShowingLogVC.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -220,7 +225,10 @@
 				BAD421EC247DFFD20003D794 /* SnVauleMode.m */,
 				BAEC47EE2436090D00DE8A2B /* ShowingLogVC.h */,
 				BAEC47EF2436090D00DE8A2B /* ShowingLogVC.m */,
-				BAEC47F22436090E00DE8A2B /* ShowingLogVC.xib */,
+				BAF0CEBB2594E85600289134 /* ShowingLogVC.xib */,
+				BAF0CEB62594E3CE00289134 /* TextView.h */,
+				BAF0CEB72594E3CE00289134 /* TextView.m */,
+				BAF0CEB92594E44000289134 /* TextView.xib */,
 				BA4E243E24C053120065C485 /* ExtensionConst.h */,
 				BA4E243F24C053120065C485 /* ExtensionConst.m */,
 				711A34371DC3539000F5B5D2 /* Assets.xcassets */,
@@ -425,8 +433,9 @@
 				711A34381DC3539000F5B5D2 /* Assets.xcassets in Resources */,
 				BA36280F244D933B009D3BD7 /* parse_uart.py in Resources */,
 				BAEC47F52436090E00DE8A2B /* ViewController.xib in Resources */,
+				BAF0CEBC2594E85600289134 /* ShowingLogVC.xib in Resources */,
 				711A343B1DC3539000F5B5D2 /* Main.storyboard in Resources */,
-				BAEC47F82436090E00DE8A2B /* ShowingLogVC.xib in Resources */,
+				BAF0CEBA2594E44000289134 /* TextView.xib in Resources */,
 				BA362811244DA147009D3BD7 /* recycle.png in Resources */,
 				BA4E23FD24C04EF50065C485 /* libzmq.la in Resources */,
 			);
@@ -448,6 +457,7 @@
 				BAEC47F32436090E00DE8A2B /* WindowVC.m in Sources */,
 				BAEC47F42436090E00DE8A2B /* ViewController.m in Sources */,
 				BA4E240524C04EF50065C485 /* Client.mm in Sources */,
+				BAF0CEB82594E3CE00289134 /* TextView.m in Sources */,
 				BA4E240324C04EF50065C485 /* Requester.cpp in Sources */,
 				BA4E244024C053120065C485 /* ExtensionConst.m in Sources */,
 				BA4E241E24C04F320065C485 /* parseCSV.m in Sources */,

@@ -11,7 +11,6 @@
 		711A34331DC3539000F5B5D2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 711A34321DC3539000F5B5D2 /* main.m */; };
 		711A34381DC3539000F5B5D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 711A34371DC3539000F5B5D2 /* Assets.xcassets */; };
 		711A343B1DC3539000F5B5D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 711A34391DC3539000F5B5D2 /* Main.storyboard */; };
-		BA65280825528AD9000B333C /* DvpStimPanelFrameWork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA65280725528AD9000B333C /* DvpStimPanelFrameWork.framework */; };
 		BAEC47F32436090E00DE8A2B /* WindowVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BAEC47EA2436090D00DE8A2B /* WindowVC.m */; };
 /* End PBXBuildFile section */
 
@@ -36,7 +35,6 @@
 		711A34371DC3539000F5B5D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		711A343A1DC3539000F5B5D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		711A343C1DC3539000F5B5D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BA65280725528AD9000B333C /* DvpStimPanelFrameWork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DvpStimPanelFrameWork.framework; path = ../../../../Library/Developer/Xcode/DerivedData/Build/Products/Debug/DvpStimPanelFrameWork.framework; sourceTree = "<group>"; };
 		BAEC47E92436090D00DE8A2B /* WindowVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WindowVC.h; sourceTree = "<group>"; };
 		BAEC47EA2436090D00DE8A2B /* WindowVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WindowVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -46,7 +44,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA65280825528AD9000B333C /* DvpStimPanelFrameWork.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,7 +93,6 @@
 		BAEC47F92436093500DE8A2B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				BA65280725528AD9000B333C /* DvpStimPanelFrameWork.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";

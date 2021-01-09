@@ -20,7 +20,10 @@
 - (void)windowDidLoad {
     [super windowDidLoad];
     
-    [self cw_addViewController:[ViewController new]];
+
+    ShowingLogVC *showVC = [[ShowingLogVC alloc]init] ;
+
+    [self cw_addViewController:showVC];
 }
 
 

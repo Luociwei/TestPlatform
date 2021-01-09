@@ -9,7 +9,7 @@
 #import "WindowVC.h"
 
 //#import <DvpStimPanelFrameWork/Test4VC.h>
-#import <DvpStimPanelFrameWork/NTCViewController.h>
+
 @interface WindowVC ()
 
 @end

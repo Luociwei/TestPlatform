@@ -80,6 +80,7 @@
 		711A34371DC3539000F5B5D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		711A343A1DC3539000F5B5D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		711A343C1DC3539000F5B5D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA24445225B19DF00064ED6D /* CwGeneralManager.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CwGeneralManager.framework; path = ../../../../../Library/Developer/Xcode/DerivedData/Build/Products/Release/CwGeneralManager.framework; sourceTree = "<group>"; };
 		BA36280E244D933B009D3BD7 /* parse_uart.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = parse_uart.py; sourceTree = "<group>"; };
 		BA362810244DA147009D3BD7 /* recycle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = recycle.png; sourceTree = "<group>"; };
 		BA4E23EB24C04EF50065C485 /* Replier.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Replier.hpp; sourceTree = "<group>"; };
@@ -131,7 +132,6 @@
 		BA4E243224C04FC30065C485 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
 		BA4E243324C04FC30065C485 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
 		BA4E243924C04FDF0065C485 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
-		BA4E243B24C050800065C485 /* CWGeneralManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CWGeneralManager.h; sourceTree = "<group>"; };
 		BA4E243E24C053120065C485 /* ExtensionConst.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExtensionConst.h; sourceTree = "<group>"; };
 		BA4E243F24C053120065C485 /* ExtensionConst.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExtensionConst.m; sourceTree = "<group>"; };
 		BA4E244224C053970065C485 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
@@ -307,7 +307,6 @@
 				BA4E241A24C04F320065C485 /* MyViewController.m */,
 				BA4E241824C04F320065C485 /* CWFileManager.h */,
 				BA4E241124C04F320065C485 /* CWFileManager.m */,
-				BA4E243B24C050800065C485 /* CWGeneralManager.h */,
 			);
 			path = CWGeneralManager;
 			sourceTree = "<group>";
@@ -365,6 +364,7 @@
 		BAEC47F92436093500DE8A2B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				BA24445225B19DF00064ED6D /* CwGeneralManager.framework */,
 				BA4E243924C04FDF0065C485 /* libsqlite3.0.tbd */,
 				BA57403924B31BA2001CAC72 /* libc++.tbd */,
 			);

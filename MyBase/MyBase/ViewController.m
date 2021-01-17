@@ -8,7 +8,6 @@
 
 #import "ViewController.h"
 #import "ShowingLogVC.h"
-#import "CWGeneralManager.h"
 #import "ItemMode.h"
 #import "FMDB.h"
 #import "DataForFMDB.h"

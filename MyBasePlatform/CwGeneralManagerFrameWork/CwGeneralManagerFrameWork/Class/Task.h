@@ -23,6 +23,7 @@ NS_ASSUME_NONNULL_BEGIN
 -(instancetype)initWithShellPath:(NSString*)filePath parArr:(NSArray *)parArr pythonPath:(NSString *)pythonPath;
 @property (nonatomic,strong) NSFileHandle *writeHandle;
 +(NSString *)termialWithCmd:(NSString *)cmd;
++(NSString *)termialWithCmd:(NSString *)cmd delay:(int)delay;
 @end
 
 NS_ASSUME_NONNULL_END

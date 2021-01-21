@@ -13,9 +13,6 @@
 		711A343B1DC3539000F5B5D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 711A34391DC3539000F5B5D2 /* Main.storyboard */; };
 		BAB4314F25B329A7003F0AFB /* WindowVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BAB4314D25B329A7003F0AFB /* WindowVC.m */; };
 		BAB4315225B32A38003F0AFB /* ExtensionConst.m in Sources */ = {isa = PBXBuildFile; fileRef = BAB4315025B32A38003F0AFB /* ExtensionConst.m */; };
-		BAB4315725B32A47003F0AFB /* state_error.PNG in Resources */ = {isa = PBXBuildFile; fileRef = BAB4315425B32A47003F0AFB /* state_error.PNG */; };
-		BAB4315825B32A47003F0AFB /* state_on.PNG in Resources */ = {isa = PBXBuildFile; fileRef = BAB4315525B32A47003F0AFB /* state_on.PNG */; };
-		BAB4315925B32A47003F0AFB /* state_off.PNG in Resources */ = {isa = PBXBuildFile; fileRef = BAB4315625B32A47003F0AFB /* state_off.PNG */; };
 		BAB4317225B332E2003F0AFB /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAB4316F25B332E2003F0AFB /* ViewController.xib */; };
 		BAB4317325B332E2003F0AFB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAB4317125B332E2003F0AFB /* ViewController.m */; };
 		BAE02D1325B3F2520063A886 /* CwGeneralManagerFrameWork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAE02D1225B3F2520063A886 /* CwGeneralManagerFrameWork.framework */; };
@@ -46,9 +43,6 @@
 		BAB4314E25B329A7003F0AFB /* WindowVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WindowVC.h; sourceTree = "<group>"; };
 		BAB4315025B32A38003F0AFB /* ExtensionConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExtensionConst.m; sourceTree = "<group>"; };
 		BAB4315125B32A38003F0AFB /* ExtensionConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExtensionConst.h; sourceTree = "<group>"; };
-		BAB4315425B32A47003F0AFB /* state_error.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = state_error.PNG; sourceTree = "<group>"; };
-		BAB4315525B32A47003F0AFB /* state_on.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = state_on.PNG; sourceTree = "<group>"; };
-		BAB4315625B32A47003F0AFB /* state_off.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = state_off.PNG; sourceTree = "<group>"; };
 		BAB4316F25B332E2003F0AFB /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
 		BAB4317025B332E2003F0AFB /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		BAB4317125B332E2003F0AFB /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
@@ -98,7 +92,6 @@
 				BAB4315025B32A38003F0AFB /* ExtensionConst.m */,
 				711A34371DC3539000F5B5D2 /* Assets.xcassets */,
 				711A34391DC3539000F5B5D2 /* Main.storyboard */,
-				BAB4315325B32A47003F0AFB /* images */,
 				711A343C1DC3539000F5B5D2 /* Info.plist */,
 				711A34311DC3539000F5B5D2 /* Supporting Files */,
 			);
@@ -119,16 +112,6 @@
 				BAE02D1225B3F2520063A886 /* CwGeneralManagerFrameWork.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		BAB4315325B32A47003F0AFB /* images */ = {
-			isa = PBXGroup;
-			children = (
-				BAB4315425B32A47003F0AFB /* state_error.PNG */,
-				BAB4315525B32A47003F0AFB /* state_on.PNG */,
-				BAB4315625B32A47003F0AFB /* state_off.PNG */,
-			);
-			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -190,12 +173,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BAB4315825B32A47003F0AFB /* state_on.PNG in Resources */,
 				711A34381DC3539000F5B5D2 /* Assets.xcassets in Resources */,
 				711A343B1DC3539000F5B5D2 /* Main.storyboard in Resources */,
-				BAB4315725B32A47003F0AFB /* state_error.PNG in Resources */,
 				BAB4317225B332E2003F0AFB /* ViewController.xib in Resources */,
-				BAB4315925B32A47003F0AFB /* state_off.PNG in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

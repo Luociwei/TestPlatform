@@ -9,7 +9,7 @@
 #import "WindowVC.h"
 #import "ViewController.h"
 #import "ShowingLogVC.h"
-#import "CWGeneralManager.h"
+
 
 @interface WindowVC ()
 
@@ -22,8 +22,9 @@
     
 
     ShowingLogVC *showVC = [[ShowingLogVC alloc]init] ;
+    ViewController *vc = [[ViewController alloc]init] ;
 
-    [self cw_addViewController:showVC];
+    [self cw_addViewController:vc];
 }
 
 

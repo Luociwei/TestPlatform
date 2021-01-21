@@ -17,7 +17,7 @@ NS_ASSUME_NONNULL_BEGIN
 +(BOOL)cw_isFileExistAtPath:(NSString*)fileFullPath;
 //文件是否能够写
 +(BOOL)cw_fileCanWrite:(NSString*)filePath;
-
++(NSString *)cw_getAppResourcePath;
 +(NSString *)cw_readFromFile:(NSString *)filePath;
 
 +(BOOL)cw_writeToFile:(NSString*)filePath content:(NSString*)content;

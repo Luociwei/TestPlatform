@@ -7,7 +7,7 @@
 //
 
 #import "WindowVC.h"
-#import "ViewController.h"
+#import "AtlasLogVC.h"
 #import "ShowingLogVC.h"
 
 
@@ -19,12 +19,21 @@
 
 - (void)windowDidLoad {
     [super windowDidLoad];
+    NSString *path = [[NSBundle bundleForClass:[self class]].resourcePath stringByAppendingPathComponent:@"BundleUI.bundle"];
+    NSBundle *bundle =   [NSBundle bundleWithPath:path];
+    if ([NSBundle loadNibNamed:@"ShowingLogVC" owner:self]==FALSE){
+        return ;
+    }
     
-
-    ShowingLogVC *showVC = [[ShowingLogVC alloc]init] ;
-    ViewController *vc = [[ViewController alloc]init] ;
-
+    id bdl = [[[bundle principalClass] alloc]init];
+    
+    
+//    ShowingLogVC *showVC = [[ShowingLogVC alloc]init] ;
+//    ViewController *vc = [[ViewController alloc]init] ;
+    AtlasLogVC *vc = [[AtlasLogVC alloc]init];
     [self cw_addViewController:vc];
+
+//    [self cw_addViewController:bdl];
 }
 
 

@@ -7,7 +7,12 @@ require  "libTest"
 
 
 test = Aclass:new(100)
+
+os.execute("sleep " .. 3)
+
 print(test:Get())
+print(test:Get1())
+
 
 -- Aclass:Aclass(100)
 -- Aclass:Get()

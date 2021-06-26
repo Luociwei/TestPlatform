@@ -12,10 +12,10 @@
 
 -(NSString *)getVauleWithKey:(NSString *)key{
     NSString *value = @"";
-    if ([key isEqualToString:@"sn"]) {
-        value = self.sn;
-    }else if ([key isEqualToString:@"value"]) {
-        value = self.value;
+    if ([key isEqualToString:@"name"]) {
+        value = self.name;
+    }else if ([key isEqualToString:@"command"]) {
+        value = self.command;
     }
     return value;
 }

@@ -12,8 +12,8 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface SnVauleMode : NSObject
-@property (nonatomic,copy)NSString *sn;
-@property (nonatomic,copy)NSString *value;
+@property (nonatomic,copy)NSString *name;
+@property (nonatomic,copy)NSString *command;
 -(NSString *)getVauleWithKey:(NSString *)key;
 @end
 

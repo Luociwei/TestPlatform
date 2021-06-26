@@ -19,6 +19,9 @@ int Aclass::Get()
     return a;
 }
 
-
+int Aclass::Get1()
+{
+    return 10;
+}
 
 

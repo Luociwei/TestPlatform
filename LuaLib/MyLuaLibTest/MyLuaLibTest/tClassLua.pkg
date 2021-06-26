@@ -1,0 +1,10 @@
+
+$#include "tClass.h"
+
+class Aclass
+{
+    int a;
+    Aclass( int nTemp );
+    int Get();
+    int Get1();
+};

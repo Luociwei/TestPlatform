@@ -2,4 +2,4 @@
 
 tolua=/usr/local/bin/tolua++
 
-$tolua -o tClassLua.mm tClass.pkg
+$tolua -o tClassLua.mm tClassLua.pkg

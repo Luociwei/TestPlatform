@@ -7,12 +7,12 @@
 //
 
 #import "ShowingLogVC.h"
-#import "TextView.h"
+//#import "TextView.h"
 #import "AppDelegate.h"
 
 @interface ShowingLogVC ()
 
-@property (strong,nonatomic)TextView *textView;
+//@property (strong,nonatomic)TextView *textView;
 
 @end
 
@@ -30,17 +30,17 @@
     // Do view setup here.
   
     self.view.wantsLayer = YES;
-    self.view.layer.backgroundColor = [NSColor greenColor].CGColor;
-    
-    self.textView = [TextView cw_allocInitWithFrame:self.view.bounds];
+    self.view.layer.backgroundColor = [NSColor blueColor].CGColor;
+//
+//    self.textView = [TextView cw_allocInitWithFrame:self.view.bounds];
 
-    [self.view addSubview:self.textView];
+//    [self.view addSubview:self.textView];
 }
 
 
 -(void)viewDidLayout{
     [super viewDidLayout];
-    self.textView.frame = self.view.bounds;
+//    self.textView.frame = self.view.bounds;
 }
 
 
@@ -48,5 +48,13 @@
     
     [[NSNotificationCenter defaultCenter] removeObserver:self];
 }
+
+
+- (IBAction)click:(id)sender {
+    NSLog(@"11111");
+}
+
+
+
 
 @end

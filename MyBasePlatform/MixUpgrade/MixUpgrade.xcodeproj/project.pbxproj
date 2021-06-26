@@ -15,7 +15,7 @@
 		BAB4315225B32A38003F0AFB /* ExtensionConst.m in Sources */ = {isa = PBXBuildFile; fileRef = BAB4315025B32A38003F0AFB /* ExtensionConst.m */; };
 		BAB4317225B332E2003F0AFB /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAB4316F25B332E2003F0AFB /* ViewController.xib */; };
 		BAB4317325B332E2003F0AFB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAB4317125B332E2003F0AFB /* ViewController.m */; };
-		BAE02D1325B3F2520063A886 /* CwGeneralManagerFrameWork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAE02D1225B3F2520063A886 /* CwGeneralManagerFrameWork.framework */; };
+		BAB45ADA267CCC0B00BB2190 /* CwGeneralManagerFrameWork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAB45AD9267CCC0A00BB2190 /* CwGeneralManagerFrameWork.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -46,7 +46,7 @@
 		BAB4316F25B332E2003F0AFB /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
 		BAB4317025B332E2003F0AFB /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		BAB4317125B332E2003F0AFB /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		BAE02D1225B3F2520063A886 /* CwGeneralManagerFrameWork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CwGeneralManagerFrameWork.framework; path = ../../../Library/Developer/Xcode/DerivedData/Build/Products/Debug/CwGeneralManagerFrameWork.framework; sourceTree = "<group>"; };
+		BAB45AD9267CCC0A00BB2190 /* CwGeneralManagerFrameWork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CwGeneralManagerFrameWork.framework; path = ../../../../../../Library/Developer/Xcode/DerivedData/Build/Products/Debug/CwGeneralManagerFrameWork.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BAE02D1325B3F2520063A886 /* CwGeneralManagerFrameWork.framework in Frameworks */,
+				BAB45ADA267CCC0B00BB2190 /* CwGeneralManagerFrameWork.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -109,7 +109,7 @@
 		BAB4314625B328C1003F0AFB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				BAE02D1225B3F2520063A886 /* CwGeneralManagerFrameWork.framework */,
+				BAB45AD9267CCC0A00BB2190 /* CwGeneralManagerFrameWork.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -155,6 +155,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

@@ -18,6 +18,7 @@ public:
     int a;
     Aclass(int nTemp);
     int Get();
+    int Get1();
 };
 
 

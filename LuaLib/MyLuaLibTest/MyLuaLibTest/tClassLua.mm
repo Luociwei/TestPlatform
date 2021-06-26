@@ -1,6 +1,6 @@
 /*
-** Lua binding: tClass
-** Generated automatically by tolua++-1.0.92 on Sun Jan 31 02:26:24 2021.
+** Lua binding: tClassLua
+** Generated automatically by tolua++-1.0.92 on Thu Mar  4 00:50:47 2021.
 */
 
 #ifndef __cplusplus
@@ -11,7 +11,7 @@
 #include "tolua++.h"
 
 /* Exported function */
-TOLUA_API int  tolua_tClass_open (lua_State* tolua_S);
+TOLUA_API int  tolua_tClassLua_open (lua_State* tolua_S);
 
 #include "tClass.h"
 
@@ -64,8 +64,8 @@ static int tolua_set_Aclass_a(lua_State* tolua_S)
 #endif //#ifndef TOLUA_DISABLE
 
 /* method: new of class  Aclass */
-#ifndef TOLUA_DISABLE_tolua_tClass_Aclass_new00
-static int tolua_tClass_Aclass_new00(lua_State* tolua_S)
+#ifndef TOLUA_DISABLE_tolua_tClassLua_Aclass_new00
+static int tolua_tClassLua_Aclass_new00(lua_State* tolua_S)
 {
 #ifndef TOLUA_RELEASE
  tolua_Error tolua_err;
@@ -94,8 +94,8 @@ static int tolua_tClass_Aclass_new00(lua_State* tolua_S)
 #endif //#ifndef TOLUA_DISABLE
 
 /* method: new_local of class  Aclass */
-#ifndef TOLUA_DISABLE_tolua_tClass_Aclass_new00_local
-static int tolua_tClass_Aclass_new00_local(lua_State* tolua_S)
+#ifndef TOLUA_DISABLE_tolua_tClassLua_Aclass_new00_local
+static int tolua_tClassLua_Aclass_new00_local(lua_State* tolua_S)
 {
 #ifndef TOLUA_RELEASE
  tolua_Error tolua_err;
@@ -125,8 +125,8 @@ static int tolua_tClass_Aclass_new00_local(lua_State* tolua_S)
 #endif //#ifndef TOLUA_DISABLE
 
 /* method: Get of class  Aclass */
-#ifndef TOLUA_DISABLE_tolua_tClass_Aclass_Get00
-static int tolua_tClass_Aclass_Get00(lua_State* tolua_S)
+#ifndef TOLUA_DISABLE_tolua_tClassLua_Aclass_Get00
+static int tolua_tClassLua_Aclass_Get00(lua_State* tolua_S)
 {
 #ifndef TOLUA_RELEASE
  tolua_Error tolua_err;
@@ -156,8 +156,40 @@ static int tolua_tClass_Aclass_Get00(lua_State* tolua_S)
 }
 #endif //#ifndef TOLUA_DISABLE
 
+/* method: Get1 of class  Aclass */
+#ifndef TOLUA_DISABLE_tolua_tClassLua_Aclass_Get100
+static int tolua_tClassLua_Aclass_Get100(lua_State* tolua_S)
+{
+#ifndef TOLUA_RELEASE
+ tolua_Error tolua_err;
+ if (
+     !tolua_isusertype(tolua_S,1,"Aclass",0,&tolua_err) ||
+     !tolua_isnoobj(tolua_S,2,&tolua_err)
+ )
+  goto tolua_lerror;
+ else
+#endif
+ {
+  Aclass* self = (Aclass*)  tolua_tousertype(tolua_S,1,0);
+#ifndef TOLUA_RELEASE
+  if (!self) tolua_error(tolua_S,"invalid 'self' in function 'Get1'", NULL);
+#endif
+  {
+   int tolua_ret = (int)  self->Get1();
+   tolua_pushnumber(tolua_S,(lua_Number)tolua_ret);
+  }
+ }
+ return 1;
+#ifndef TOLUA_RELEASE
+ tolua_lerror:
+ tolua_error(tolua_S,"#ferror in function 'Get1'.",&tolua_err);
+ return 0;
+#endif
+}
+#endif //#ifndef TOLUA_DISABLE
+
 /* Open function */
-TOLUA_API int tolua_tClass_open (lua_State* tolua_S)
+TOLUA_API int tolua_tClassLua_open (lua_State* tolua_S)
 {
  tolua_open(tolua_S);
  tolua_reg_types(tolua_S);
@@ -170,10 +202,11 @@ TOLUA_API int tolua_tClass_open (lua_State* tolua_S)
   #endif
   tolua_beginmodule(tolua_S,"Aclass");
    tolua_variable(tolua_S,"a",tolua_get_Aclass_a,tolua_set_Aclass_a);
-   tolua_function(tolua_S,"new",tolua_tClass_Aclass_new00);
-   tolua_function(tolua_S,"new_local",tolua_tClass_Aclass_new00_local);
-   tolua_function(tolua_S,".call",tolua_tClass_Aclass_new00_local);
-   tolua_function(tolua_S,"Get",tolua_tClass_Aclass_Get00);
+   tolua_function(tolua_S,"new",tolua_tClassLua_Aclass_new00);
+   tolua_function(tolua_S,"new_local",tolua_tClassLua_Aclass_new00_local);
+   tolua_function(tolua_S,".call",tolua_tClassLua_Aclass_new00_local);
+   tolua_function(tolua_S,"Get",tolua_tClassLua_Aclass_Get00);
+   tolua_function(tolua_S,"Get1",tolua_tClassLua_Aclass_Get100);
   tolua_endmodule(tolua_S);
  tolua_endmodule(tolua_S);
  return 1;
@@ -181,8 +214,8 @@ TOLUA_API int tolua_tClass_open (lua_State* tolua_S)
 
 
 #if defined(LUA_VERSION_NUM) && LUA_VERSION_NUM >= 501
- TOLUA_API int luaopen_tClass (lua_State* tolua_S) {
- return tolua_tClass_open(tolua_S);
+ TOLUA_API int luaopen_tClassLua (lua_State* tolua_S) {
+ return tolua_tClassLua_open(tolua_S);
 };
 #endif
 

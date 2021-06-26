@@ -7,24 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BA10436C25EB548A0066BA1B /* libtolua++.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BA10436A25EB54890066BA1B /* libtolua++.a */; };
+		BA10436D25EB548A0066BA1B /* liblua.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BA10436B25EB548A0066BA1B /* liblua.a */; };
 		BA423BD925C5D89F0060429B /* tClass.mm in Sources */ = {isa = PBXBuildFile; fileRef = BA423BD725C5D89F0060429B /* tClass.mm */; };
 		BA423BDA25C5D89F0060429B /* tClass.h in Headers */ = {isa = PBXBuildFile; fileRef = BA423BD825C5D89F0060429B /* tClass.h */; };
-		BA423BDE25C5D90D0060429B /* tClass.pkg in Headers */ = {isa = PBXBuildFile; fileRef = BA423BDC25C5D90D0060429B /* tClass.pkg */; };
+		BA423BDE25C5D90D0060429B /* tClassLua.pkg in Headers */ = {isa = PBXBuildFile; fileRef = BA423BDC25C5D90D0060429B /* tClassLua.pkg */; };
 		BA423BDF25C5D90D0060429B /* tClassLua.mm in Sources */ = {isa = PBXBuildFile; fileRef = BA423BDD25C5D90D0060429B /* tClassLua.mm */; };
-		BA423C1F25C5DC400060429B /* libtolua++.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BA423C1E25C5DC400060429B /* libtolua++.a */; };
-		BA423C2125C5DC430060429B /* liblua.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BA423C2025C5DC430060429B /* liblua.a */; };
 		BA423C3425C5E58E0060429B /* SocketDev.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BA423C3225C5E58E0060429B /* SocketDev.cpp */; };
 		BA423C3525C5E58E0060429B /* SocketDev.h in Headers */ = {isa = PBXBuildFile; fileRef = BA423C3325C5E58E0060429B /* SocketDev.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BA10436A25EB54890066BA1B /* libtolua++.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libtolua++.a"; sourceTree = "<group>"; };
+		BA10436B25EB548A0066BA1B /* liblua.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = liblua.a; sourceTree = "<group>"; };
 		BA4239A125C5B9E00060429B /* libMyLuaLibTest.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libMyLuaLibTest.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA423BD725C5D89F0060429B /* tClass.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = tClass.mm; sourceTree = "<group>"; };
 		BA423BD825C5D89F0060429B /* tClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tClass.h; sourceTree = "<group>"; };
-		BA423BDC25C5D90D0060429B /* tClass.pkg */ = {isa = PBXFileReference; lastKnownFileType = text; path = tClass.pkg; sourceTree = "<group>"; };
+		BA423BDC25C5D90D0060429B /* tClassLua.pkg */ = {isa = PBXFileReference; lastKnownFileType = text; path = tClassLua.pkg; sourceTree = "<group>"; };
 		BA423BDD25C5D90D0060429B /* tClassLua.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = tClassLua.mm; sourceTree = "<group>"; };
-		BA423C1E25C5DC400060429B /* libtolua++.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libtolua++.a"; path = "../../../../../../Library/Developer/Xcode/DerivedData/Build/Products/Debug/libtolua++.a"; sourceTree = "<group>"; };
-		BA423C2025C5DC430060429B /* liblua.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = liblua.a; path = ../../../../../../Library/Developer/Xcode/DerivedData/Build/Products/Debug/liblua.a; sourceTree = "<group>"; };
 		BA423C3225C5E58E0060429B /* SocketDev.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SocketDev.cpp; sourceTree = "<group>"; };
 		BA423C3325C5E58E0060429B /* SocketDev.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SocketDev.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -34,8 +34,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA423C1F25C5DC400060429B /* libtolua++.a in Frameworks */,
-				BA423C2125C5DC430060429B /* liblua.a in Frameworks */,
+				BA10436D25EB548A0066BA1B /* liblua.a in Frameworks */,
+				BA10436C25EB548A0066BA1B /* libtolua++.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,9 +62,11 @@
 		BA4239A325C5B9E00060429B /* MyLuaLibTest */ = {
 			isa = PBXGroup;
 			children = (
+				BA10436B25EB548A0066BA1B /* liblua.a */,
+				BA10436A25EB54890066BA1B /* libtolua++.a */,
 				BA423BD725C5D89F0060429B /* tClass.mm */,
 				BA423BD825C5D89F0060429B /* tClass.h */,
-				BA423BDC25C5D90D0060429B /* tClass.pkg */,
+				BA423BDC25C5D90D0060429B /* tClassLua.pkg */,
 				BA423BDD25C5D90D0060429B /* tClassLua.mm */,
 				BA423C3225C5E58E0060429B /* SocketDev.cpp */,
 				BA423C3325C5E58E0060429B /* SocketDev.h */,
@@ -75,8 +77,6 @@
 		BA4239F325C5BC780060429B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				BA423C2025C5DC430060429B /* liblua.a */,
-				BA423C1E25C5DC400060429B /* libtolua++.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -88,7 +88,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA423BDE25C5D90D0060429B /* tClass.pkg in Headers */,
+				BA423BDE25C5D90D0060429B /* tClassLua.pkg in Headers */,
 				BA423BDA25C5D89F0060429B /* tClass.h in Headers */,
 				BA423C3525C5E58E0060429B /* SocketDev.h in Headers */,
 			);
@@ -281,6 +281,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/MyLuaLibTest",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -298,6 +299,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/MyLuaLibTest",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;

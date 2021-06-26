@@ -14,7 +14,7 @@
 
 #define VERSION_NUM     "2019 11 20 US dry run for J5XX"
 
-TOLUA_API int  tolua_tClass_open (lua_State* tolua_S);
+TOLUA_API int  tolua_tClassLua_open (lua_State* tolua_S);
 
 
 int luaopen_libTest(lua_State * state)
@@ -24,7 +24,7 @@ int luaopen_libTest(lua_State * state)
     printf("*****************************************\r\n");
     
     
-    tolua_tClass_open(state);
+    tolua_tClassLua_open(state);
     
     return 0;
 }

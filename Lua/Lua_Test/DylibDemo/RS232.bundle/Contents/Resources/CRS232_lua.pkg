@@ -1,0 +1,19 @@
+//
+//  FCTDemo.h
+//  FCTDemo
+//
+//  Created by Louis on 13-8-14.
+//  Copyright (c) 2013年 Louis. All rights reserved.
+//
+
+$#include "CRS232.h"
+
+class CRS232 {
+public:
+    bool WriteString(char *szCMD);
+    char* ReadString();
+    int SendCmd(char* szCmd, int timeout);
+    
+    int ShowMeasurePanel(char *msg) ;
+};
+

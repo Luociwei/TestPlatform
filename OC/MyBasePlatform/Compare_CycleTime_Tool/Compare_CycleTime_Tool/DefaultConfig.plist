@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>sc_cycle_time_path</key>
+	<string>/Users/ciweiluo/Desktop/Compare_CycleTime/J407_SC_FCT_Cycle_Time.csv</string>
+	<key>atlas2_cycle_time_path</key>
+	<string>/Users/ciweiluo/Desktop/Compare_CycleTime/J407_SC_Atlas2_Cycle_Time.csv</string>
+	<key>lua</key>
+	<false/>
+</dict>
+</plist>

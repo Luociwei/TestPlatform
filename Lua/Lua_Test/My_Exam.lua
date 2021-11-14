@@ -1,3 +1,5 @@
+
+
 --exam 1
 function reversal_string(par)
 	-- body

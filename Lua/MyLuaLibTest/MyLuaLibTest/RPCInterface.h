@@ -16,6 +16,6 @@
 
 #include <stdio.h>
 
-DL_EXPORT extern "C" int luaopen_libTest(lua_State * state);
+DL_EXPORT extern "C" int luaopen_LibRPC(lua_State * state);
 
 #endif /* defined(__Global__Global__) */

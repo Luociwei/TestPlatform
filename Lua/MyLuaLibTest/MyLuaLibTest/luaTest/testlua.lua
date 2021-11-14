@@ -2,16 +2,18 @@
 local _RPC_ = {}
 
 require("lfs")
-package.cpath = package.cpath..";"..lfs.currentdir().."/libMyLuaLibTest.dylib"
-require  "libTest"
+package.cpath = package.cpath..";"..lfs.currentdir().."/libDFUFixture.dylib"
+require  "LibRPC"
 
 
-test = Aclass:new(100)
+test = RPC:new()
 
-os.execute("sleep " .. 3)
+os.execute("sleep " .. 1)
 
-print(test:Get())
-print(test:Get1())
+
+
+print(test:FixtureWriteRead('sssffdsfafaafafafdas',0))
+
 
 
 -- Aclass:Aclass(100)

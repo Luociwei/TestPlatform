@@ -8,23 +8,23 @@
  */
 
 #include <iostream>
-#include "SocketDev.h"
+#include "RPCInterface.h"
 
 #include "tolua++.h"
 
-#define VERSION_NUM     "2019 11 20 US dry run for J5XX"
+#define VERSION_NUM     "2021_09_02 for DFU/SOC"
 
-TOLUA_API int  tolua_tClassLua_open (lua_State* tolua_S);
+TOLUA_API int  tolua_RPCLua_open (lua_State* tolua_S);
 
 
-int luaopen_libTest(lua_State * state)
+int luaopen_LibRPC(lua_State * state)
 {
     printf("*****************************************\r\n");
-    printf("       Load SocketDUT Library,v%s\r\n",VERSION_NUM);
+    printf("       Load libDFUFixture.dylib,v%s\r\n",VERSION_NUM);
     printf("*****************************************\r\n");
     
     
-    tolua_tClassLua_open(state);
+    tolua_RPCLua_open(state);
     
     return 0;
 }

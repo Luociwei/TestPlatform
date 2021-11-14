@@ -12,11 +12,11 @@
 #include <stdio.h>
 
 
-class Aclass
+class RPC
 {
 public:
     int a;
-    Aclass(int nTemp);
+    RPC(int nTemp);
     int Get();
     int Get1();
 };

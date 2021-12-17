@@ -19,35 +19,35 @@
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
-       /*char pyPath[] ="/usr/bin/python3";
-       Py_SetProgramName(pyPath);
-       if (Py_IsInitialized())
-           return;
-
-       Py_Initialize();
-       NSLog(@"PyInit");
-       const char *pypath = [[[NSBundle mainBundle] resourcePath] UTF8String];
-
-      
-    
-    // import sys 导入头文件
-       PyObject *sys = PyImport_Import(PyString_FromString("sys"));
-
-       // sys.path.append(resourcePath)
-       PyObject *sys_path_append = PyObject_GetAttrString(PyObject_GetAttrString(sys, "path"), "append");
-
-       PyObject *resourcePath = PyTuple_New(1);
-       PyTuple_SetItem(resourcePath, 0, PyString_FromString(pypath));
-       PyObject_CallObject(sys_path_append, resourcePath);
-       // import MyModule   # this is in my project folder
-      // myModule = PyImport_Import(PyString_FromString("MyModule"));
-    
-    
-    
-    // ********keynote***********
-    KeynoteModule = PyImport_Import(PyString_FromString("generate_keynote"));
-    
-*/
+    char pyPath[] ="/usr/bin/python3";
+     Py_SetProgramName(pyPath);
+     if (Py_IsInitialized())
+     return;
+     
+     Py_Initialize();
+     NSLog(@"PyInit");
+     const char *pypath = [[[NSBundle mainBundle] resourcePath] UTF8String];
+     
+     
+     
+     // import sys 导入头文件
+     PyObject *sys = PyImport_Import(PyString_FromString("sys"));
+     
+     // sys.path.append(resourcePath)
+     PyObject *sys_path_append = PyObject_GetAttrString(PyObject_GetAttrString(sys, "path"), "append");
+     
+     PyObject *resourcePath = PyTuple_New(1);
+     PyTuple_SetItem(resourcePath, 0, PyString_FromString(pypath));
+     PyObject_CallObject(sys_path_append, resourcePath);
+     // import MyModule   # this is in my project folder
+     // myModule = PyImport_Import(PyString_FromString("MyModule"));
+     
+     
+     
+     // ********keynote***********
+     KeynoteModule = PyImport_Import(PyString_FromString("generate_keynote"));
+     
+     
     
     
 }
